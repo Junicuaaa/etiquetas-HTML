@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,24 @@
     <link rel="stylesheet" href="styles.css">
     <title>Etiquetas HTML</title>
 </head>
+
 <body>
-    <h1>ETIQUETAS DE PARRAFO</h1>
-    <hr>
-    <p>esta la etiqueta p que es la que se usa para hacer parrafos</p>
-    <p>tambien esta la pre, que tiene unas caracteristicas predefinidas: </p>
-    <pre>
-        sirve mucho para poemas
-
-        ya que toma los saltos de linea
-
-        de forma automatica
-    </pre>
-    <p>tenemos los saltos de <br> linea con la etiqueta br</p>
-    <p>y una linea para definir una seccion o un texto de otro con la etiqueta hr</p>
-    <hr>
+    <h1>ETIQUETAS DE MULTIMEDIA</h1>
+    <p>Tenemos la etiqueta video para colocar un video, la cual tiene varios atributos, como autoplay para reproduccion
+        automatica o controls, para poder controlar (valgame la redundancia) el volumen, el tamaño y el tiempo.
+    </p>
+    <video src="media/video.mp4" autoplay controls muted></video>
+    <p>tenemos la etiqueta de audio para colocar audio dentro de nuestra pagina web</p>
+    <audio src="media/audio.mp3" controls></audio>
+    <p>tenemos la etiqueta iframe, la cual tiene muchos atributos incluso mas que las dos anteriores, se usa para
+        insertar otro documento html externo dentro de nuestra pagina
+        podemos jugar mucho esta etiqueta con el tema de las APIs
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uzB_bVqXgLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>
+        y por ultimo la etiqueta para colocar imagenes
+    </p>
+    <img src="media/img.jpg" alt="">
 </body>
+
 </html>
